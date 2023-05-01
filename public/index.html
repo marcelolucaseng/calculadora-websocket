@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Websocket Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Calculadora</h1>
+        <div class="input-area">
+            <form id="form" action="">
+                <label for="value1">Valor 1:</label>
+                <input type="number" id="value1" name="value1" value="1">
+                <br><br>
+                <label for="value2">Valor 2:</label>
+                <input type="number" id="value2" name="value2" value="1">
+                <br><br>
+                <label for="operation">Operação:</label>
+                <select id="operacao" name="operacao">
+                    <option value="soma">+</option>
+                    <option value="subtracao">-</option>
+                    <option value="multiplicacao">*</option>
+                    <option value="divisao">/</option>
+                    <option value="potencia">x^y</option>
+                    <option value="raiz">x^(1/y)</option>
+                    <option value="mdc">mdc(x,y)</option>
+                    <option value="resto">resto(x,y)</option>
+                    <option value="int">int(x,y)</option>
+                </select>
+                <br><br>
+                <button type="submit">Calcular</button>
+            </form>
+        </div>
+    </div>
+    <div id="resultado"></div>
+    <script src="/client.js"></script>
+</body>
+
+</html>

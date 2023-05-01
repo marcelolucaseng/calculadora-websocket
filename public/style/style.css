@@ -1,0 +1,100 @@
+/* Definindo estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo fontes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+/* Definindo estilo da área de entrada de dados */
+.input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Definindo estilo da área de entrada de dados */
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    float:center;
+}
+
+/* Definindo estilo do seletor */
+select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    align-items: center;
+}
+
+/* Definindo estilo do botão enviar */
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+botao:hover {
+    background-color: #0069d9;
+}
+
+/* Estilos para a saída do resultado */
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resultado-label {
+    margin-bottom: 10px;
+}
+
+.resultado-field {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Definindo estilo para mensagens de erro */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "calculadora-websocket",
+  "version": "1.0.0",
+  "description": "Aplicação client/server completa usando WebSocket na porta 3000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seu-usuario/calculadora-websocket.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Node.js",
+    "html",
+    "css",
+    "client/server",
+    "WebSocket."
+  ],
+  "author": "Marcelo Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/calculadora-websocket/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/calculadora-websocket#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
